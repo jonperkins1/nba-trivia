@@ -1,0 +1,78 @@
+body {
+  background-color: slategray;
+  
+}
+
+#end-page {
+  display: none;
+}
+
+#main-logo {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  width: 30%;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: impact;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+    color: whitesmoke;d
+}
+
+p {
+    color: whitesmoke;
+}
+
+#all-stars {
+    width: 80%;
+    float: left;
+    position: fixed;
+    
+    
+}
+
+label {
+  font-size: 16px;
+  color: white;
+}
+
+#end-page p {
+  font-size: 20px;
+  /* font-weight: 700; */
+}
+
+#correct-answers {
+  margin-top: 32px;
+}
+
+#question {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+footer {
+  height: 30px;
+  margin-top: 30px;
+}
+
+#copyright-small {
+  font-size: 12px;
+}
+
+#timer {
+  margin-top: 20px;
+  position: relative;
+  color: red;
+}
+
+#done-button {
+  margin-top: 20px;
+}
