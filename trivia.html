@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NBA Trivia</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="trivia.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="https://www.itsnicethat.com/system/files/072017/59636abf7fa44cb082006e80/images_slice_large/OCD_Commercial_NBA_Its_Nice_That_list.jpg?1499687638" class="img-fluid text-center" id="main-logo" alt="NBA logo">
+        <h1 class="display-3">Trivia Game</h1>
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <img src="https://theundefeated.com/wp-content/uploads/2019/02/1999NBAAllStars_v3-002.jpg?w=1500" class="img-fluid text-center" id="all-stars" alt="selection of NBA all-stars">
+        <div>
+          <h3 id="timer"></h3>
+        </div>
+      </div>
+
+      <div class="offset-md-1"></div>
+
+      <div class="col-md-8">
+        <div id="start-page" class="start-page-text">
+          <h2>Welcome to NBA Trivia!</h2>
+          <p>Are you ready to test your knowledge of <i>NBA Basketball </i>? You'll have 60 seconds to answer all the questions!</p>
+          <div class="btn btn-primary" id="start-button">Start
+          </div>
+        </div>
+
+      <div>
+        <div id="questions-box">
+        </div>
+      </div>
+
+        <div class="hidden" id="end-page">
+          <h2>Here are your scores:</h2>
+          <p id="correct-answers"></p>
+          <p id="incorrect-answers"></p>
+          <p id="unanswered"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <hr>
+      <span class="text-center">
+        <p>&copy; NBA Trivia Game</p>
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="trivia.js"></script>
+</body>
+</html>
